@@ -13,11 +13,11 @@ A lightweight collection of React components for expressive, declarative conditi
 ## Installation
 
 ```sh
-pnpm add react-conditionals
+pnpm add @luckyonedev/react-conditionals
 # or
-npm install react-conditionals
+npm install @luckyonedev/react-conditionals
 # or
-yarn add react-conditionals
+yarn add @luckyonedev/react-conditionals
 ```
 
 ## Usage

@@ -1,7 +1,8 @@
 {
-  "name": "react-conditionals",
+  "name": "@luckyonedev/react-conditionals",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight collection of React components for expressive, declarative conditional and list rendering",
+  "homepage": "https://github.com/luckyonedev/react-conditionals",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -14,9 +15,9 @@
     "build:watch": "tsc --watch",
     "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "conditional", "rendering"],
+  "author": "LuckyOne",
+  "license": "MIT",
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
     "@eslint/css": "^0.13.0",
