@@ -8,6 +8,14 @@ export interface SwitchContextType {
   shouldRender: (condition: Booleanish) => boolean;
 }
 
+/**
+ * Context for Switch component.
+ *
+ * @param {Set<Booleanish>} conditions - The set of conditions to match.
+ * @param {Function} addCondition - Function to add a condition to the set.
+ * @param {Function} removeCondition - Function to remove a condition from the set.
+ * @param {Function} shouldRender - Function to check if a condition should be rendered.
+ */
 export const SwitchContext = createContext<SwitchContextType>({
   conditions: new Set(),
   addCondition: () => {},
@@ -15,6 +23,11 @@ export const SwitchContext = createContext<SwitchContextType>({
   shouldRender: () => false,
 });
 
+/**
+ * Hook to use the SwitchContext.
+ *
+ * @returns {SwitchContextType} The context value.
+ */
 export const useSwitchContext = () => {
   return useContext(SwitchContext);
 };
