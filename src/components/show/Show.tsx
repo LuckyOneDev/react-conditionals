@@ -1,5 +1,5 @@
 import { type ReactNode } from "react";
-import type { Booleanish } from "@/types/Booleanish.js";
+import type { Booleanish } from "@/types/Booleanish";
 import { resolveBooleanish } from "@/utils/resolveBooleanish";
 
 export interface ShowProps {

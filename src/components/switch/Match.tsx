@@ -1,6 +1,6 @@
 import { useEffect, type ReactNode } from "react";
-import type { Booleanish } from "@/types/Booleanish.js";
-import { useSwitchContext } from "@/components/switch/SwitchContext.js";
+import type { Booleanish } from "@/types/Booleanish";
+import { useSwitchContext } from "@/components/switch/SwitchContext";
 
 export interface MatchProps {
   when?: Booleanish;

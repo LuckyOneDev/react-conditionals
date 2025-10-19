@@ -1,6 +1,6 @@
-import { SwitchContext } from "@/components/switch/SwitchContext.js";
-import type { Booleanish } from "@/types/Booleanish.js";
-import { resolveBooleanish } from "@/utils/resolveBooleanish.js";
+import { SwitchContext } from "@/components/switch/SwitchContext";
+import type { Booleanish } from "@/types/Booleanish";
+import { resolveBooleanish } from "@/utils/resolveBooleanish";
 import { useCallback, useMemo, useState, type ReactNode } from "react";
 
 export interface SwitchProps {

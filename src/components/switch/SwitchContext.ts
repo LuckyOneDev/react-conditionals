@@ -1,4 +1,4 @@
-import type { Booleanish } from "@/types/Booleanish.js";
+import type { Booleanish } from "@/types/Booleanish";
 import { createContext, useContext } from "react";
 
 export interface SwitchContextType {
